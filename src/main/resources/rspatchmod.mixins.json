@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.dje4321.rspatchmod.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [],
+    "client": [
+        "PatternGridScreenMixin",
+        "PatternGridScreenAccessor",
+	"PatternGridContainerMenuAccessor"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

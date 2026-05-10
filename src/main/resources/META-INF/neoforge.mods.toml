@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+license = "MIT"
+
+[[mods]]
+modId = "rspatchmod"
+version = "1.0.0"
+displayName = "RS Pattern Grid Patch"
+description = "Removes the crafting pattern type from the pattern grid."
+
+[[mixins]]
+config = "rspatchmod.mixins.json"
+
+[[dependencies.rspatchmod]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.rspatchmod]]
+modId = "refinedstorage"
+type = "required"
+versionRange = "[2.0,)"
+ordering = "AFTER"
+side = "BOTH"
